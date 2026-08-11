@@ -1,0 +1,10 @@
+def test_imports() -> None:
+    __import__("salao.ui")
+    __import__("salao.app")
+    __import__("salao.salon")
+    __import__("salao.database")
+    __import__("salao.finance")
+    __import__("salao.auth")
+    __import__("salao.receipt")
+    __import__("salao.client_profile")
+    __import__("salao.whatsapp")
